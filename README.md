@@ -2,7 +2,12 @@
 
 This repository showcases my contributions to group repositories and highlights what relevant skills I demonstrated in those projects.
 
-# Transit.io - Distributed Transit Payment System
+1. [Transit.io - Distributed Transit Payment System](#1-transitio---distributed-transit-payment-system)
+2. [Github Stats](#2-github-stats)
+3. [BetterLearn - Cloud Based Collaborative Learning Platform (Google OAuth)](#3-betterlearn---cloud-based-collaborative-learning-platform)
+
+
+# 1. Transit.io - Distributed Transit Payment System
 
 Original Repo link: https://github.com/jleibovitch/distributed-systems-final
 
@@ -44,7 +49,7 @@ Handling incoming transactions from the Train Station (found in web_api.py):
 ---
 ---
 
-# Github Stats
+# 2. Github Stats
 
 Original Repo link: https://github.com/a-saf/SOFE3700-GitHubStats
 
@@ -74,20 +79,53 @@ Github provides some general statistics on individual repository pages but curre
 ---
 ---
 
-# BetterLearn - Cloud Based Collaborative Learning Platform
+# 3. BetterLearn - Cloud Based Collaborative Learning Platform
 
 Original Repo link: https://github.com/GabrielGelgor/BetterLearn/tree/master/Services
 
-Link to the Report: https://docs.google.com/document/d/1i0d22QzMqBG5sdFpGS0K9_duEnuXT7CRxavWwuRQF94/edit?usp=sharing
+Link to the Report: https://docs.google.com/document/d/1986_lgnWJtDS1-YcSnF-ZhCwd_iF8FaIR-U-u3hIUNk/edit?usp=sharing
 
 Link to code I have contributed (Authentication): https://github.com/GabrielGelgor/BetterLearn/tree/master/Services/Authentication
 
 ### Relevant skills I demonstrated in this project:
 
-- Soon to be added
+- Implementing Google Oauth2 with cookies using gmail, so users can create an account or login with ease
+- Collaborated with my team so the Authentication microservice worked with the DBHelper microservice in a cloud/Kubernetes environment
+- Ensured the cookies are encrypted and can communicate with Google strategy to ensure secure login
+- When logged in user information can be retrieved from the Database using the secure cookie
 
 ### Brief Summary:
-Soon to be added
+Better Learn is a collaborative development platform for students, by students. Users can create a profile detailing information about their areas of interest, what technologies they’re familiar with, and optionally a link to a portfolio. Next, they can either join or create their own project.
+
+Since BetterLearn will ideally be utilized by a large number of clients, scalability, modularity, and maintainability were at the forefront of our minds while designing. Adopting a micro service oriented approach, we will be capitalizing on cloud technology solutions like Docker and Kubernetes during development to achieve our desired outcome.
 
 ### Screenshots:
+![image](https://user-images.githubusercontent.com/22453457/133939549-ef205d7a-d47b-4e72-b434-6f474083c43b.png)
+
+
+### Snippets of Notable code I contributed:
+(Found in Authentication/services/passport.js)
+
+Creating the cookie:
+
+![image](https://user-images.githubusercontent.com/22453457/133940378-27df559d-8154-446e-a11e-57daffb7de4c.png)
+
+
+Checking if user exists, if not a new user is created:
+
+![image](https://user-images.githubusercontent.com/22453457/133939921-ebfa62ae-fc21-4089-a7e0-befe41aed3e4.png)
+
+
+### Snippets of Googles OAuth Architecture:
+
+Source: 5. S. Grider, “StephenGrider/FullstackReactCode,” GitHub. [Online]. Available: https://github.com/StephenGrider/FullstackReactCode/tree/master/diagrams/04. [Accessed: 04-Apr-2021]. 
+
+![image](https://user-images.githubusercontent.com/22453457/133940608-3619d548-5419-4a37-8a41-019c2d979335.png)
+
+![image](https://user-images.githubusercontent.com/22453457/133940781-12af3c11-a27c-4a25-b47f-3439a5df617b.png)
+
+
+### Snippet I wrote in the report about Google OAuth:
+
+![image](https://user-images.githubusercontent.com/22453457/133940971-64221962-128b-4889-9651-5b7ad51a6936.png)
 
