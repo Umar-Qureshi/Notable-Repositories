@@ -74,7 +74,7 @@ Github provides some general statistics on individual repository pages but curre
 ---
 ---
 
-# BetterLearn - Distributed Transit Payment System
+# BetterLearn - Cloud Based Collaborative Learning Platform
 
 Original Repo link: https://github.com/GabrielGelgor/BetterLearn/tree/master/Services
 
